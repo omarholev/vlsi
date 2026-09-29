@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Tue Sep 29 21:06:58 2026
+# Process ID         : 19924
+# Current directory  : C:/Users/omarh/Program/Vivado/lab3
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent2496 C:\Users\omarh\Program\Vivado\lab3\lab3.xpr
+# Log file           : C:/Users/omarh/Program/Vivado/lab3/vivado.log
+# Journal file       : C:/Users/omarh/Program/Vivado/lab3\vivado.jou
+# Running On         : OliDesktop
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 5800X 8-Core Processor             
+# CPU Frequency      : 3800 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 34261 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36408 MB
+# Available Virtual  : 20486 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/omarh/Program/Vivado/lab3/lab3.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+remove_files  {C:/Users/omarh/Program/Vivado/lab3/7SegDriver.sv C:/Users/omarh/Program/Vivado/lab3/alu.sv C:/Users/omarh/Program/Vivado/lab3/alu_common.sv C:/Users/omarh/Program/Vivado/lab3/alu_ctrl.sv C:/Users/omarh/Program/Vivado/lab3/alu_top.sv C:/Users/omarh/Program/Vivado/lab3/binary2bcd.sv C:/Users/omarh/Program/Vivado/lab3/debouncer.sv C:/Users/omarh/Program/Vivado/lab3/dff.sv C:/Users/omarh/Program/Vivado/lab3/reg_update.sv}
+add_files {C:/Users/omarh/Downloads/sv/alu.sv C:/Users/omarh/Downloads/sv/debouncer.sv C:/Users/omarh/Downloads/sv/alu_ctrl.sv C:/Users/omarh/Downloads/sv/alu_top.sv C:/Users/omarh/Downloads/sv/7SegDriver.sv C:/Users/omarh/Downloads/sv/reg_update.sv C:/Users/omarh/Downloads/sv/alu_common.sv C:/Users/omarh/Downloads/sv/dff.sv C:/Users/omarh/Downloads/sv/binary2bcd.sv C:/Users/omarh/Downloads/sv/tb_alu.sv}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/omarh/Downloads/sv/alu_common.sv
+remove_files  C:/Users/omarh/Downloads/sv/tb_alu.sv
+update_compile_order -fileset sources_1
+remove_files  -fileset sim_1 C:/Users/omarh/Program/Vivado/lab3/tb_alu.sv
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/omarh/Downloads/sv/tb_alu.sv
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_alu [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1

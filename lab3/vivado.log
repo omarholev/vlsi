@@ -1,0 +1,66 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite ENTERPRISE license has been detected. Your current license is active and will expire on 14-nov-2026.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Tue Sep 29 21:06:58 2026
+# Process ID         : 19924
+# Current directory  : C:/Users/omarh/Program/Vivado/lab3
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent2496 C:\Users\omarh\Program\Vivado\lab3\lab3.xpr
+# Log file           : C:/Users/omarh/Program/Vivado/lab3/vivado.log
+# Journal file       : C:/Users/omarh/Program/Vivado/lab3\vivado.jou
+# Running On         : OliDesktop
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 5800X 8-Core Processor             
+# CPU Frequency      : 3800 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 34261 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36408 MB
+# Available Virtual  : 20486 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/omarh/Program/Vivado/lab3/lab3.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/omarh/Program/Vivado/lab3/lab3.gen/sources_1'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/omarh/Program/Vivado/lab3/binary2bcd.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/omarh/Program/Vivado/lab3/alu_common.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/omarh/Program/Vivado/lab3/alu.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/omarh/Program/Vivado/lab3/7SegDriver.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/omarh/Program/Vivado/lab3/alu_ctrl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/omarh/Program/Vivado/lab3/alu_top.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/omarh/Program/Vivado/lab3/debouncer.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/omarh/Program/Vivado/lab3/dff.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/omarh/Program/Vivado/lab3/reg_update.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/omarh/Program/Vivado/lab3/tb_alu.sv'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2026.1/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 1708.711 ; gain = 304.816
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+remove_files  {C:/Users/omarh/Program/Vivado/lab3/7SegDriver.sv C:/Users/omarh/Program/Vivado/lab3/alu.sv C:/Users/omarh/Program/Vivado/lab3/alu_common.sv C:/Users/omarh/Program/Vivado/lab3/alu_ctrl.sv C:/Users/omarh/Program/Vivado/lab3/alu_top.sv C:/Users/omarh/Program/Vivado/lab3/binary2bcd.sv C:/Users/omarh/Program/Vivado/lab3/debouncer.sv C:/Users/omarh/Program/Vivado/lab3/dff.sv C:/Users/omarh/Program/Vivado/lab3/reg_update.sv}
+add_files {C:/Users/omarh/Downloads/sv/alu.sv C:/Users/omarh/Downloads/sv/debouncer.sv C:/Users/omarh/Downloads/sv/alu_ctrl.sv C:/Users/omarh/Downloads/sv/alu_top.sv C:/Users/omarh/Downloads/sv/7SegDriver.sv C:/Users/omarh/Downloads/sv/reg_update.sv C:/Users/omarh/Downloads/sv/alu_common.sv C:/Users/omarh/Downloads/sv/dff.sv C:/Users/omarh/Downloads/sv/binary2bcd.sv C:/Users/omarh/Downloads/sv/tb_alu.sv}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/omarh/Downloads/sv/alu_common.sv
+WARNING: [filemgmt 56-12] File 'C:/Users/omarh/Downloads/sv/alu_common.sv' cannot be added to the project because it already exists in the project, skipping this file
+remove_files  C:/Users/omarh/Downloads/sv/tb_alu.sv
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\omarh\Downloads\sv\binary2bcd.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\omarh\Downloads\sv\alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\omarh\Downloads\sv\binary2bcd.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\omarh\Downloads\sv\binary2bcd.sv:]
+update_compile_order -fileset sources_1
+remove_files  -fileset sim_1 C:/Users/omarh/Program/Vivado/lab3/tb_alu.sv
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/omarh/Downloads/sv/tb_alu.sv
+update_compile_order -fileset sim_1
+set_property top tb_alu [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1

@@ -1,0 +1,13 @@
+0.7
+2020.2
+Jun 16 2026
+11:10:11
+C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.sim/sim_1/behav/xsim/glbl.v,1789631343,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.srcs/sim_1/imports/lab2/tb_top.sv,1789631343,systemVerilog,,,,testbench_top,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.srcs/sources_1/imports/lab2/binary_to_sg.sv,1789631343,systemVerilog,,C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.srcs/sources_1/imports/lab2/convert_scancode.sv,,binary_to_sg,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.srcs/sources_1/imports/lab2/convert_scancode.sv,1789631343,systemVerilog,,C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.srcs/sources_1/imports/lab2/convert_to_binary.sv,,convert_scancode,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.srcs/sources_1/imports/lab2/convert_to_binary.sv,1789631343,systemVerilog,,C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.srcs/sources_1/imports/lab2/edge_detector.sv,,convert_to_binary,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.srcs/sources_1/imports/lab2/edge_detector.sv,1789631343,systemVerilog,,C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.srcs/sources_1/imports/lab2/keyboard_ctrl.sv,,edge_detector,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.srcs/sources_1/imports/lab2/keyboard_ctrl.sv,1789633358,systemVerilog,,C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.srcs/sources_1/imports/lab2/keyboard_top.sv,,keyboard_ctrl,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.srcs/sources_1/imports/lab2/keyboard_top.sv,1789631343,systemVerilog,,C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.srcs/sources_1/imports/lab2/sync_keyboard.sv,,keyboard_top,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.srcs/sources_1/imports/lab2/sync_keyboard.sv,1789631343,systemVerilog,,C:/Users/omarh/Program/Vivado/lab2_corrected/lab2/lab2.srcs/sim_1/imports/lab2/tb_top.sv,,sync_keyboard,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,

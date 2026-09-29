@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Sep 16 16:45:18 2026
+# Process ID: 12612
+# Current directory: C:/Users/ol5102ma-s/Program/Vivado/lab2_corrected/lab2/lab2.runs/impl_1
+# Command line: vivado.exe -log keyboard_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source keyboard_top.tcl -notrace
+# Log file: C:/Users/ol5102ma-s/Program/Vivado/lab2_corrected/lab2/lab2.runs/impl_1/keyboard_top.vdi
+# Journal file: C:/Users/ol5102ma-s/Program/Vivado/lab2_corrected/lab2/lab2.runs/impl_1\vivado.jou
+# Running On        :fox-26
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+# CPU Frequency     :3000 MHz
+# CPU Physical cores:6
+# CPU Logical cores :6
+# Host memory       :16965 MB
+# Swap memory       :2550 MB
+# Total Virtual     :19516 MB
+# Available Virtual :7738 MB
+#-----------------------------------------------------------
+source keyboard_top.tcl -notrace
